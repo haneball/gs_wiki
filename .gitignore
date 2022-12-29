@@ -139,7 +139,6 @@ cython_debug/
 
 gs_wiki/gw_env/
 gs_wiki/client/node_modules
-gs_wiki/client/src/assets/img
-gs_wiki/client/src/assets/psd
+gs_wiki/client/src/assets/
 gs_wiki/gs_wiki/.env
-gs_wiki/gw_app/migrations
+gs_wiki/gw_app/migrations/
