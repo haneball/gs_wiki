@@ -1,0 +1,12 @@
+Django==2.2.25
+django-apscheduler==0.6.0
+django-bootstrap3==21.2
+django-cors-headers==3.7.0
+django-environ==0.9.0
+django-extensions==3.1.5
+djangorestframework==3.13.1
+Pillow==9.1.1
+PyMySQL==1.0.2
+pyOpenSSL==22.0.0
+redis==4.3.4
+sqlparse==0.4.2
