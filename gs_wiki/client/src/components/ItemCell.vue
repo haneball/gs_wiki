@@ -3,7 +3,8 @@
     <el-popover
       placement="top"
       width="160"
-      trigger="hover">
+      trigger="hover"
+      open-delay="200">
       <div style="font-size: 12px; color: #909399;">{{ description }}</div>
       <div style="margin-top: 2px;">
         <el-tag v-if="area" effect="plain" size="mini">{{ area }}</el-tag>
