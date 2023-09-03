@@ -1,0 +1,25 @@
+// 滑动动画
+@mixin slide-in($duration) {
+  animation: slide $duration ease forwards;
+}
+@keyframes slide {
+    from {
+      top: -60px;
+    }
+    to {
+      top: 0;
+    }
+  }
+
+// 逐显动画
+@mixin fade-in($duration) {
+  animation: fade $duration linear forwards;
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}

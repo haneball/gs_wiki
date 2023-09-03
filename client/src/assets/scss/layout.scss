@@ -1,0 +1,9 @@
+@mixin card-style($card-padding:16px, $card-radius:.4px) {  
+  padding: $card-padding;
+  border: {
+    style: solid;
+    width: 1px;
+    color: #DCDFE6;
+    radius: $card-radius;
+  };
+}
