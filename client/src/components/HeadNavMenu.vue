@@ -53,7 +53,6 @@
 
 <script>
 import QuerySearch from './QuerySearch.vue'
-import middleware from '../utils/middleware'
 
 export default {
   components: {
