@@ -53,6 +53,7 @@
 
 <script>
 import QuerySearch from './QuerySearch.vue'
+import middleware from '../utils/middleware'
 
 export default {
   components: {
@@ -61,6 +62,7 @@ export default {
   data () {
     return {
       isVisable: false,
+      handleResize: null,
       activeIndex: '',
       menuItem: [{
         name: '主页',
@@ -86,12 +88,9 @@ export default {
     }
   },
   mounted () {
-    this.onResize()
-    window.addEventListener('resize', this.onResize)
     window.addEventListener('scroll', this.onScroll)
   },
   beforeDestroy () {
-    window.removeEventListener('resize', this.onResize)
     window.removeEventListener('scroll', this.onScroll)
   },
   computed: {
@@ -107,11 +106,6 @@ export default {
     }
   },
   methods: {
-    onResize () {
-      if (window.innerWidth >= 768) {
-        this.isVisable = false
-      } 
-    },
     onScroll () {
       let scrollTop = document.documentElement.scrollTop
       if (scrollTop >= 240) { // 滚动高度大于 240, 导航栏为 fixed 定位
@@ -119,9 +113,6 @@ export default {
       } else if (scrollTop <= 60) {
         this.navClass = 'nav-bar__top'
       }
-    },
-    handleClick () {
-      this.isVisable = !this.isVisable
     },
     jmpToPage (index) {
       this.$router.push(index)
