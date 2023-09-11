@@ -22,6 +22,7 @@
 
 <script>
 import { querySearch } from '../api'
+import { debounce } from '../utils/middleware'
 
 export default {
   data () {
@@ -42,7 +43,7 @@ export default {
     }
   },
   methods: {
-    getData (kw) {
+    getData: debounce(function(kw) {
       querySearch(kw).then(response => {
         if (response.data.status === 200) {
           this.dataList.length = 0
@@ -60,7 +61,7 @@ export default {
       }).catch((error) => {
         console.log(error)
       })
-    },
+    }, 500, false),
     querySearchAsync (queryString, cb) {
       let result = []
       if (queryString === '') { // 返回空数组
