@@ -1,5 +1,6 @@
 <template>
   <div class="common-layout">
+    <div class="notice">注意：本网站已暂停更新</div>
     <el-container>
       <el-header>
         <HeadNavMenu />
@@ -91,6 +92,15 @@ h2 {
 
 .el-button:active {
   transform: scale(0.95);
+}
+
+.notice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem 0;
+  color: #E6A23C;
+  background-color: #FDF6EC;
 }
 
 @media (min-width: $xs-width) {
