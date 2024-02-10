@@ -5,7 +5,7 @@
     <a href="https://nodejs.org/en/about/previous-releases" target="_blank">
         <img alt="Node" src="https://img.shields.io/badge/Node-v18.17.1-green">
     </a>
-    <a href="#gs_wiki">
+    <a href="#top">
         <img alt="license" src="https://img.shields.io/badge/license-Apache2.0-yellow">
     </a>
 </p>
