@@ -1,7 +1,14 @@
-![Static Badge](https://img.shields.io/badge/Python-v3.9.13-blue)(https://www.python.org/downloads)
-![Static Badge](https://img.shields.io/badge/Node-v18.17.1-green)(https://nodejs.org/en/about/previous-releases)
-![Static Badge](https://img.shields.io/badge/license-Apache2.0-yellow)
-
+<p align="center">
+    <a href="https://www.python.org/downloads" target="_blank">
+        <img alt="Python" src="https://img.shields.io/badge/Python-v3.9.13-blue">
+    </a>
+    <a href="https://nodejs.org/en/about/previous-releases" target="_blank">
+        <img alt="Node" src="https://img.shields.io/badge/Node-v18.17.1-green">
+    </a>
+    <a href="#gs_wiki">
+        <img alt="license" src="https://img.shields.io/badge/license-Apache2.0-yellow">
+    </a>
+</p>
 
 # gs_wiki
 
