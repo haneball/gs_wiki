@@ -114,6 +114,12 @@ const format = () => {
   }
 }
 
+.el-progress {
+  :deep(.el-progress__text) > span {
+    font-size: .75rem;
+  }
+}
+
 .info-label {
   margin-bottom: .25rem;
   color: $regular-text;
