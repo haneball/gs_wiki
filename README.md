@@ -1,3 +1,8 @@
+![Static Badge](https://img.shields.io/badge/Python-v3.9.13-blue?link=https%3A%2F%2Fwww.python.org%2Fdownloads)
+![Static Badge](https://img.shields.io/badge/Node-v18.17.1-green?link=https%3A%2F%2Fnodejs.org%2Fen%2Fabout%2Fprevious-releases)
+![Static Badge](https://img.shields.io/badge/license-Apache2.0-yellow?link=https%3A%2F%2Fgithub.com%2Fhaneball%2Fgs_wiki%2Fblob%2Fmaster%2FLICENSE)
+
+
 # gs_wiki
 
 #### 介绍
