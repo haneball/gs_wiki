@@ -5,11 +5,11 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   plugins: [vue()],
   server: {
-    host: 'localhost',
+    host: '127.0.0.1',
     port: '8080',
     proxy: {
       '/api': {
-        target: 'http://localhost:3000', 
+        target: 'http://127.0.0.1:8000', 
         changeOrigin: true, 
         ws: true, // 支持 websocket
         rewrite: (path) => path.replace(/^\/api/, '/api') // 路径重写
